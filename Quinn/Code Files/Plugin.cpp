@@ -146,7 +146,17 @@ float GetDistance(IUnit* source, IUnit* target)
 
 void Combo()
 {
-	auto target = GTargetSelector->FindTarget(QuickestKill, PhysicalDamage, 1300);
+	auto bestTarget = GTargetSelector->FindTarget(QuickestKill, PhysicalDamage, 1300);
+	auto focusTarget = GTargetSelector->GetFocusedTarget();
+
+	IUnit* target;
+
+	if (focusTarget != nullptr)
+	{
+		target = focusTarget;
+	} else {
+		target = bestTarget;
+	}
 
 	if (target != nullptr && target->IsValidTarget() && !target->IsDead()) {
 
