@@ -1,0 +1,9 @@
+﻿  Plugin.cpp
+     Creating library F:\VisualStudioProject\LPP\Quinn\Release\Quinn.lib and object F:\VisualStudioProject\LPP\Quinn\Release\Quinn.exp
+  Generating code
+  2 of 71 functions ( 2.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Quinn.vcxproj -> F:\VisualStudioProject\LPP\Quinn\Release\Quinn.dll
+  Quinn.vcxproj -> F:\VisualStudioProject\LPP\Quinn\Release\Quinn.pdb (Full PDB)
