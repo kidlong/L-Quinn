@@ -149,7 +149,7 @@ void Combo()
 	auto bestTarget = GTargetSelector->FindTarget(QuickestKill, PhysicalDamage, 1300);
 	auto focusTarget = GTargetSelector->GetFocusedTarget();
 
-	IUnit* target;
+	IUnit* target = nullptr;
 
 	if (focusTarget != nullptr)
 	{
